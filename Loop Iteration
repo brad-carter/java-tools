@@ -10,10 +10,14 @@
 // Here are a few examples of loops for multiple types and their implementations.
 
 
-
-
-//  Looping over int arrays for a singular instance of a specific item
+//    Looping over int arrays for a singular instance of a specific item
 // START-OF 
+      // This is a mock implementation of finding the array index of an integer you are searching for
+      // for this example, replace x with yourArray
+
+      // This is an instantiation of an array object we need in order to have the loop iterate over the array.
+      // if your array is configured properly, either from a function call or within this function, there is no need
+      // to instantiate (create) this array here.
       int[] x = new int[5];
       int y = 4; // 4 is an example value that we are searching for.
       x[3] = 4; // here, we set x[3] (the element at index 3, or the 4th item in x, to 4)
@@ -29,3 +33,7 @@
     }
     
 // END-OF 
+
+
+//    Looping over int arrays for multiple instances of specific item
+
