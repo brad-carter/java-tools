@@ -1,0 +1,31 @@
+//  Table of Contents
+//  Loop Iteration Explainer
+//  Looping over int arrays for a singular instance of a specific item
+//  Looping over int arrays for multiple instances of specific item
+
+
+// Loop Iteration Explainer
+// Arrays are indexed groupings of the same variable which start at 0. 
+// In order to search through an array, whether that be for insertion, deletion, changing, or moving array elements, loops are commonly used
+// Here are a few examples of loops for multiple types and their implementations.
+
+
+
+
+//  Looping over int arrays for a singular instance of a specific item
+// START-OF 
+      int[] x = new int[5];
+      int y = 4; // 4 is an example value that we are searching for.
+      x[3] = 4; // here, we set x[3] (the element at index 3, or the 4th item in x, to 4)
+      
+      // it is important to note that an array's FIRST ITEM WILL BE AT INDEX 0
+      
+      // replace x.length with yourArray.length
+    for (int i = 0; i < x.length; i++ ){
+        if (x[i] == y){
+            System.out.print(i);
+            break; // this will print the array index where x[i] == y. This loop will cease to iterate.
+        }
+    }
+    
+// END-OF 
